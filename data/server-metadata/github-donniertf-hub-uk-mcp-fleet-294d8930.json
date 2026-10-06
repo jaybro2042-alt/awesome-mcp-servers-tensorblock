@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/server-metadata.schema.json",
+  "id": "github-donniertf-hub-uk-mcp-fleet-294d8930",
+  "source": {
+    "issue": 3246,
+    "projectUrl": "https://github.com/donniertf-hub/uk-mcp-fleet"
+  },
+  "links": {
+    "endpoint": "https://uk-places-mcp.donniertf.workers.dev/mcp"
+  },
+  "transport": [
+    "streamable-http"
+  ],
+  "auth": {
+    "type": "none",
+    "notes": []
+  },
+  "clients": [
+    "Claude Desktop",
+    "Cursor",
+    "any Streamable HTTP MCP client"
+  ],
+  "license": "unknown"
+}
