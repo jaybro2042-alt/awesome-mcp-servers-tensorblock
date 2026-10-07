@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/server-metadata.schema.json",
+  "id": "github-atlasgrunch-ship-com-mcp-17aa91bd",
+  "source": {
+    "issue": 3249,
+    "projectUrl": "https://github.com/AtlasGrunch/ship-com-mcp"
+  },
+  "links": {
+    "endpoint": "https://app.ship.com/mcp"
+  },
+  "transport": [
+    "streamable-http"
+  ],
+  "auth": {
+    "type": "oauth",
+    "notes": [
+      "bearer token or supported OAuth sign in Description: Official hosted shipping MCP server for orders, USPS and UPS rate comparison, labels, pickups, customers, and reports."
+    ]
+  }
+}
